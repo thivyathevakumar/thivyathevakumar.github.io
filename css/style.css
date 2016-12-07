@@ -31,7 +31,7 @@
 }
 
 
-#main {
+#main { /* The main parts in the page */
 	background: url(../images/image1.jpg) no-repeat;
 	background-size: cover;
 	height: 680px;
@@ -43,7 +43,7 @@
 	transform: scale(0.95);
 }
 
-#nav {
+#nav { /* Nav bar */
 	background: transparent;
 	background-color: transparent;
 	border-color: transparent;
@@ -61,7 +61,7 @@
 
 
 
-#nav ul li {
+#nav ul li { /* Nav bar lists */
 	list-style-type:none;
 	display:inline-block;
 	float: right;
@@ -174,14 +174,14 @@ p.font {
 	background-image:url('images/footerbackground.jpg');
 }
 
-#social h3 {
+#social h3 { /* Heading in social column */
 	
 	top: 45px;
 	padding-left: 80px;
 	color: #636B70;
 }
 
-#social hr {
+#social hr { /* Horizontal line in the social column */
 	width: 200px; 
 	margin-left: 53px;
 	align: center;
@@ -195,7 +195,7 @@ p.font {
 	box-shadow: inset 0 12px 12px -12px #636B70;
 }
 
-#socialIcons img {
+#socialIcons img { /* Transitions for the social media icons  */
 	width: 40px;
 	height: 40px;
 	cell-padding: 0.5px;
@@ -212,31 +212,31 @@ p.font {
 	transform: rotate(360deg);
 }
 
-#socialIcons {
+#socialIcons { /* Width of the social media icons */
 	width: 340px;
 } 
 
-#left{
+#left{ /* Right media in footer */
 	width:24%;
   	float:right;
   	height:300px;
   	margin-top: -220px;
 }
 
-#center {
+#center { /* Center media in footer */
 	width:24%;
   	float:right;
   	height:300px;
   	margin-top: -220px;
 }		 
 
-#images video {
+#images video { /* Left video in footer */
 	float:right;
 	width: 24%;
 	height: 300px;
 	margin-top: -230px;	
 }
-
+/* Buttons positioning */
 #buttons {
 	width: 100%;
 	height: 42px;
@@ -244,7 +244,7 @@ p.font {
 	margin: 3px;
 	
 }
-
+/* Get to know me button */
 .button1 {
 	border-radius:4px;
 	background-color: #85C1E9;
@@ -256,7 +256,7 @@ p.font {
 	width: 200px;
 	transition: all 0.5s;
 	cursor: pointer;
-	margin-left: 450px;
+	position: relative;
 	margin-top: 0%;
 }
 
@@ -284,7 +284,7 @@ p.font {
   opacity: 1;
   right: 0;
 }
-
+/* Shoot me a message button */
 .button2 {
 	border-radius:4px;
 	background-color: #85C1E9;
@@ -296,6 +296,7 @@ p.font {
 	width: 200px;
 	transition: all 0.5s;
 	cursor: pointer;
+	position: relative;
 	
 	margin-top: 0%;
 }
@@ -324,7 +325,7 @@ p.font {
   opacity: 1;
   right: 0;
 }
-
+/* Thivya Thevakumar button on main*/
 .thivya {
 	margin-left: 250px;
 	margin-top:50px;
@@ -347,4 +348,15 @@ p.font {
 	color: #A93226;
 	border-color: #A93226;
 }
+
+/*For desktop */
+.col-1 {width: 25%}
+.col-2 {width: 30%}
+
+@media only screen and (max-width: 780px) {
+	/* For mobile phones*/
+	[class*="col-"] {
+		width: 100%; 
+	}
+
 }

@@ -36,7 +36,8 @@
 	background-size: cover;
 	height: 680px;
 	width: 100%;
-	transition: all 1000ms ease;	
+	transition: all 1000ms ease;
+	position: relative;
 }
 
 #main:hover {
@@ -242,6 +243,7 @@ p.font {
 	height: 42px;
 	background-color: #AED6F1;
 	margin: 3px;
+	position: relative;
 	
 }
 /* Get to know me button */
@@ -352,8 +354,9 @@ p.font {
 /*For desktop */
 .col-1 {width: 25%}
 .col-2 {width: 30%}
+.col-3 {width: 100%} 
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 500px) {
 	/* For mobile phones*/
 	[class*="col-"] {
 		width: 100%; 

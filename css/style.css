@@ -52,7 +52,7 @@
 	background: transparent;
 	background-color: transparent;
 	border-color: transparent;
-	width: 100%;
+	width: 1320px;
 	height: 30px;
 	line-height: 90px;
 	font-family:Verdana, Helvetica, sans-serif;
@@ -254,15 +254,15 @@
 	border-color: #A93226;
 }
 
-@media screen and (max-width:1319px) { /*--for pc's--*/
+@media screen and (min-width:1319px) { /*--for pc's--*/
 	#main {
 		width: 100%; 
 	}
 	#button1 {
-		width: 70%;
+		width: 50%;
 	}
 	#button2 {
-		width: 30%;
+		width: 50%;
 	}
 	#footer {
 		width: 100%;

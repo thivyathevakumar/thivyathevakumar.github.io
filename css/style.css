@@ -5,6 +5,19 @@
 	 
 }
 
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+html,
+body { /*-- To avoid extra space in the middle--*/
+	width: 100%;
+	overflow-x: hidden;
+     }
+}
+
+
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -36,7 +49,7 @@
 	background-position: center;
 	width: 100%;
 	height: 650px;
-	
+	margin: 0px auto;
 	display: inline-block;
 	transition: all 1000ms ease;	
 	-webkit-background-size: cover;
@@ -52,7 +65,7 @@
 	background: transparent;
 	background-color: transparent;
 	border-color: transparent;
-	width: 1320px;
+	width: 100%;
 	height: 30px;
 	line-height: 90px;
 	font-family:Verdana, Helvetica, sans-serif;
@@ -85,7 +98,7 @@
 
 /*--footer--*/
 #footer {
-	width:1320px;
+	width:100%;
 	height:258px;
 	padding-top: 40px;
 	margin: 0px auto;
@@ -138,7 +151,7 @@
 
 
 
-#buttons { /*after the main buttons */
+#buttons { //after the main buttons
 	width: 1320px;
 	height: 42px;
 	margin: 0px auto;
@@ -259,10 +272,10 @@
 		width: 100%; 
 	}
 	#button1 {
-		width: 50%;
+		width: 70%;
 	}
 	#button2 {
-		width: 50%;
+		width: 30%;
 	}
 	#footer {
 		width: 100%;

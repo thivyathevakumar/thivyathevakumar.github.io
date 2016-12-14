@@ -138,7 +138,7 @@
 
 
 
-#buttons { //after the main buttons
+#buttons { /*after the main buttons */
 	width: 1320px;
 	height: 42px;
 	margin: 0px auto;
@@ -254,7 +254,7 @@
 	border-color: #A93226;
 }
 
-@media screen and (min-width:1319px) { /*--for pc's--*/
+@media screen and (max-width:1319px) { /*--for pc's--*/
 	#main {
 		width: 100%; 
 	}

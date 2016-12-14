@@ -36,7 +36,7 @@
 	background-position: center;
 	width: 1320px;
 	height: 650px;
-	margin: 2px;
+	margin: 0px auto;
 	display: inline-block;
 	transition: all 1000ms ease;	
 	-webkit-background-size: cover;
@@ -85,7 +85,7 @@
 
 /*--footer--*/
 #footer {
-	width:1320px;
+	width:1400px;
 	height:258px;
 	padding-top: 40px;
 	margin: 0px auto;

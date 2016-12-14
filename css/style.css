@@ -36,7 +36,7 @@
 	background-position: center;
 	width: 1320px;
 	height: 650px;
-	margin: 0px auto;
+	margin: 2px;
 	display: inline-block;
 	transition: all 1000ms ease;	
 	-webkit-background-size: cover;

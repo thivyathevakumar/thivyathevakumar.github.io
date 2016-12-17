@@ -114,7 +114,7 @@ a:hover#menu-icon {
 /*--end of nav bar--*/
 
 /*--Content beginning--*/
-#buttons { /*--after the main buttons--*/
+#buttons { //after the main buttons
 	width: 100%;
 	height: 42px;
 	margin: 0px auto;

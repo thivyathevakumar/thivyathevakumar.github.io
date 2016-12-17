@@ -3,7 +3,9 @@
 <head>
 <meta charset="utf-8">
 <title> Index sample </title>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css"> <!-- My css file-->
+<link href="https://fonts.googleapis.com/css?family=Cuprum|Satisfy|Ubuntu" rel="stylesheet"><!--Google font-->
+<link href="css/font-awesome.min.css" rel="stylesheet"/><!-- Footer icon css file-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 
@@ -11,21 +13,26 @@
 <body id="body">
 <div id="fade1">
 <div id="main"> 
-	<div id="nav"> 
+
+<div id="nav">
+		<a href="#" id="menu-icon"></a>
 	<div id="logo"> 
-	<img src="images/logonew.png">
-	<ul class="nav navbar-nav navbar-right">
-		<li id="index"> <a href="index.html"> PROFILE </a> </li>
-		<li id="about"> <a href="about.html"> ABOUT </a> </li>
-		<li id="resume"> <a href="resume.html"> RESUME </a> </li>
-		<li id="contact"> <a href="contact.html"> CONTACT </a> </li>
+	<img src="images/TT.png">
+	<ul>
+		<li><a href="index.html" class="current">PROFILE</a></li>
+		<li><a href="about.html">ABOUT</a></li>
+		<li><a href="resume.html">RESUME</a></li>
+		<li><a href="contact.html">CONTACT</a></li>
 	</ul>
 
 </div>
 </div>
 
-<button class="thivya" type="button"> Click me! </button>
-
+<div class="para">
+	<p id="quote"> Normal is overrated; Why would you want to be a carbon copy 
+of someone else? #StandOut </p>
+	<p id="author"> - Thivya Thevakumar </p>
+</div>
 
 </div>
 
@@ -37,20 +44,22 @@
 </div>
 </div>
 
-<div id="footer">
-<div id="social"> 
- <h3> Connect with me  </h3> <hr>
-<div id="socialIcons"> 
-      <a href="https://www.facebook.com/thivyathevekumar"> <img src="images/facebook-icon.png">  </a>
-      <a href="https://www.youtube.com/channel/UCm5G--VWUrp-0u3exZOCMIA"> <img src="images/youtube-icon.png"> </a>
-      <a href="https://plus.google.com/u/0/+ThivyaThevekumar"> <img src="images/Google-plus-icon.png"> </a>
-      <a href="https://www.instagram.com/thivyathevakumar/?hl=en"> <img src="images/instagram-icon.png"> </a>
-      <a href="https://github.com/thivyathevakumar/thivyathevakumar.github.io"> <img src="images/github-icon.png"> </a>
-</div>  
-
-</div>
-</div>
-	
+<footer> 
+	<ul class="social"> 
+		<li> <a href="#" target="_blank"> <i class="fa fa-facebook"> </i> <a> </li>
+		<li> <a href="#" target="_blank"> <i class="fa fa-google-plus"> </i> <a> </li>
+		<li> <a href="#" target="_blank"> <i class="fa fa-youtube"> </i> <a> </li>
+		<li> <a href="#" target="_blank"> <i class="fa fa-instagram"> </i> <a> </li>
+		<li> <a href="#" target="_blank"> <i class="fa fa-github"> </i> <a> </li>
+	</ul>
+</footer>
+<!---End Footer Section-->
+	<footer class="copyright">
+		<p> &copy; Thivya Thevakumar </p>
+	</footer>
+<!--End second footer-->
+</footer>
+</div>	
 
 </body>
 </html>

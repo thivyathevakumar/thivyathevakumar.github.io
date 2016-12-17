@@ -125,7 +125,7 @@ a:hover#menu-icon {
 
 .button1 {
 	border-radius:4px;
-	background-color: #85C1E9;
+	background-color: #E0CF6E;
 	border: none;
 	color: #FFFFFF;
 	text-align: center;
@@ -166,7 +166,7 @@ a:hover#menu-icon {
 
 .button2 {
 	border-radius:4px;
-	background-color: #85C1E9;
+	background-color: #E0CF6E;
 	border: none;
 	color: #FFFFFF;
 	text-align: center;
@@ -226,7 +226,7 @@ a:hover#menu-icon {
 
 /*--footer--*/
 footer {
-	background-color: black;
+	background-color: #37ABC7;
 	width: 100%;
 	padding: 0px;
 	

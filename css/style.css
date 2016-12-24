@@ -323,9 +323,19 @@ footer.copyright p{
 	#third .graph{
 		width: 100%;
 	}
-	
-}
-@media screen and (max-width: 980px) {
+	.htmlresume {
+		background-size: 100%;
+	}
+	.res-box .col {
+		width:100% ; !important
+		height: auto;
+	}
+	.col col3{
+		width: 500px; !important
+	}
+	.contain #col1, .contain #col2 { float: none; width: 100%; height: auto; }
+}	
+@media only screen and (max-width: 768px) {
 	#main {
 		width: 100%;
 	}
@@ -356,7 +366,33 @@ footer.copyright p{
 		font-size: 150%;
 	}
 	.pushabout {
-		margin-top: 400px;
+		margin-top: 450px;
+	}
+	.main {
+		width: 100%; !important
+	}
+	.col1{
+       float: left;
+        width:100%; !important
+	
+    	}
+	.col2 {
+	float: left; !important
+	width: 100%; !important
+	display: block; !important
+	}
+
+	.col3 {
+	float: left; !important
+	width: 100%; !important
+	display: block; !important
+	}
+	.contain #col1, .contain #col2 {
+		display: block; !important
+		margin: 0 auto;
+		height: 500px;
+		width: 100%;
+		float: left;
 	}
 }
  
@@ -487,3 +523,101 @@ ul .percent  li{
 #skill {
 	margin-top: -10px;
 }
+
+/*--RESUME WEB PAGE---*/
+.htmlresume, .bodyresume, h1, h2, h2, p, div, a, img, footer {
+	margin: 0;
+	padding: 0;
+}
+.htmlresume {
+	background-image: url(../images/aoc7tslb1o8-lauren-mancke.jpg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.res-box {
+	margin-top: 100px;
+	background-color: rgba(47,79,79,0.4);
+	margin-left: 5px;
+	margin-right: 5px;
+	
+} 
+
+main{
+  	width:94.75%;
+	margin: 0 auto;
+ 	overflow: hidden;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+.col{
+    	width: 30%;
+   	
+    	float: left;
+    	text-align: center;
+    	padding:1rem;
+    	position: relative;
+}
+.col1 , .col2 , .col3 { }
+
+#col1 {
+	margin: 0 1% 0 0;
+	width: 49%;
+	height: 500px;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	position: relative;
+}
+
+#col2 {
+	margin: 0 0 0 1%;
+	width: 49%;
+	height: 500px;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	position: relative;
+}
+
+/*--RESUME PAGE FONT STYLES--*/
+
+#techresume {
+	color:  #d6d6c2;
+	font-family: 'Karla', sans-serif;
+	font-size: 22px;
+	text-align: center;
+} /*--Technology and Skills heading--*/
+
+#techres {
+	color: #e0e0d1;
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	
+}
+
+.techlist { list-style-type: square; }
+.techlist li {
+	color: #f5f5f0;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 18px;
+}
+
+#resumep, #resumepf {
+	color: #FFFFF0;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 18px;
+	text-align: left;
+}
+#techres1 {
+	color: #e0e0d1;
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	padding-top: 70px;
+}
+
+.col1resume {
+	margin-top: 150px;	
+}	

@@ -331,9 +331,13 @@ footer.copyright p{
 		height: auto;
 	}
 	.col col3{
-		width: 500px; !important
+		width: 580px; !important
+		background-color: red;
 	}
 	.contain #col1, .contain #col2 { float: none; width: 100%; height: auto; }
+	.col-2 {
+		height: 1000px;
+	}
 }	
 @media only screen and (max-width: 768px) {
 	#main {
@@ -387,13 +391,21 @@ footer.copyright p{
 	width: 100%; !important
 	display: block; !important
 	}
-	.contain #col1, .contain #col2 {
+	.contain #col1, {
 		display: block; !important
 		margin: 0 auto;
 		height: 500px;
 		width: 100%;
 		float: left;
 	}
+	.contain #col2 {
+		display: block; !important
+		margin: 0 auto;
+		height: 720px;
+		width: 100%;
+		float: left;
+	}
+	
 }
  
 /*--ABOUT.HTML PAGE--*/
@@ -550,6 +562,7 @@ main{
  	overflow: hidden;
 	padding: 5px 5px 5px 5px;
 	text-align: center;
+	height: auto;
 }
 
 .col{
@@ -560,7 +573,7 @@ main{
     	padding:1rem;
     	position: relative;
 }
-.col1 , .col2 , .col3 { }
+.col1 , .col2, .col3 { }
 
 #col1 {
 	margin: 0 1% 0 0;
@@ -575,7 +588,7 @@ main{
 #col2 {
 	margin: 0 0 0 1%;
 	width: 49%;
-	height: 500px;
+	height: 800px;
 	display: inline-block;
 	vertical-align: top;
 	float: right;
@@ -619,5 +632,6 @@ main{
 }
 
 .col1resume {
-	margin-top: 150px;	
+	margin-top: 170px;	
 }	
+

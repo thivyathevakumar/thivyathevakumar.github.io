@@ -1,0 +1,637 @@
+﻿
+*{
+	
+	transition: width 2s, height 2s, transform 2s;
+	 
+}
+
+/*--Fade in effect--*/
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+#body {
+	background-color: #ECF0F1;
+	
+}
+#fade1 { /*--fade in effect for the page--*/
+	opacity:0; 
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+  -webkit-animation-fill-mode:forwards;
+   -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;-webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+	
+}
+
+
+#main  {
+	background: url(../images/image1.jpg) no-repeat;
+	background-size: contain;
+	background-position: center;
+	width: 100%;
+	height: 650px;
+	margin: 0px;
+	display: inline-block;
+	transition: all 1000ms ease;	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+#main:hover {
+	transform: scale(0.95);
+}
+/*--nav bar beginning--*/
+#nav {
+	background: transparent;
+	background-color: transparent;
+	border-color: transparent;
+	width: 100%;
+	margin: 0px;
+	height: 30px;
+	line-height: 90px;
+	font-family:'Ubuntu', sans-serif;
+	font-size: 22px;
+	opacity: 1.0;
+	alpha: filter (opacity=20);
+	top: 0;
+} 
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 44px;
+	background: url(../images/nav.svg) center;
+	margin-top: 40px;
+	
+}
+
+a:hover#menu-icon {
+	border-radius: 4px 4px 0 0;
+}
+#nav ul {
+	float: right;
+	list-style-type: none;
+	
+}
+#nav ul li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	
+}
+
+#nav ul li a {
+	color: #08BADE;
+	text-decoration: none;
+}
+
+#nav ul li a:hover{
+	color: #A40518;
+	
+}
+.current {
+	color: #EC0513 !important;
+}
+/*--end of nav bar--*/
+
+/*--Content beginning--*/
+#buttons { //after the main buttons
+	width: 100%;
+	height: 42px;
+	margin: 0px auto;
+	display: flex;
+	flex-wrap: wrap;
+		
+}
+
+.button1 {
+	border-radius:4px;
+	background-color: #E0CF6E;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+	transition: all 0.5s;
+	width: 50%;
+	cursor: pointer;
+	flex-grow: 1;
+	min-width: 25%;
+	
+	
+}
+
+.button1 span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button2 {
+	border-radius:4px;
+	background-color: #E0CF6E;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+	width:50%;
+	transition: all 0.5s;
+	cursor: pointer;
+	flex-grow: 1;
+	min-width: 25%;
+	
+}
+
+.button2 span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*--End of content--*/
+.para {
+	margin-left: 250px;
+	margin-top: 200px;
+	width: 250px;
+	
+}
+
+#quote {
+	
+	font-size: 30px;
+	font-family:'Cuprum', sans-serif;
+}
+
+#author {
+	margin-left: 130px;
+	font-family:'Satisfy', cursive;
+	font-size: 30px;
+	
+}
+
+/*--footer--*/
+footer {
+	background-color: #37ABC7;
+	width: 100%;
+	padding : 0px;
+	
+	
+}
+.social {
+	list-style-type: none;
+	text-align: center;
+}
+.social li {
+	display: inline;
+}
+.social i{
+	font-size: 460%;
+	margin: 1px;
+	padding: 5% 5% 5% 4%;
+	color: #C3D7DF;
+}
+.social i:hover {
+	color: #F5F5F5;
+}
+footer.copyright {
+	border-top: 0px solid #AADCD2;
+	background-color: #544B59;
+	max-height: 50px;
+	margin-top: -13px;
+}
+footer.copyright p{
+	padding: 5px 0 9px 0;
+	text-align: center;
+	color: white;
+}
+/*--End of footer--*/
+
+#logo img{
+	width: 160px;
+	height: 150px;
+	background: transparent;
+	padding: 0px;
+	float: left;
+`	}		
+
+@media screen and (max-width: 500px) {
+	#menu-icon {
+		display: inline-block;
+		float: right;
+		
+	}
+	#nav ul, nav:active ul {
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		margin-top: 80px;
+		padding: 5px;
+		right: 0px;
+		background: #F5F4F3;
+		border-radius: 10px 0 10px 10px;
+		width: 50%;
+	}
+	#nav:hover ul {
+		display: block;
+	}
+	#nav li {
+		text-align: center;
+		width: 100%;
+		padding: 2px 0;
+	}
+	.para {
+		margin-left: 20px;
+		margin-top: 150px;
+	}
+	#quote {
+		font-size: 150%;
+	}
+	#author {
+		font-size: 150%;
+	}
+	#button1 {
+		width: 100%;
+	}
+	#button2 {
+		width: 100%;
+	}
+	
+	.social {
+		font-size:50%;
+	}
+	
+	.container {
+		width: 500px;
+	}
+	#aboutimg {
+		width: 100%;
+		padding: 10%;	
+	}
+	.container .text {
+		width: 100%;
+		
+	}
+	.text #heading1, .text #heading3{
+		font-size: 80%;
+		width: 100%;
+		text-align: center;
+	}
+	#third .graph{
+		width: 100%;
+	}
+	.htmlresume {
+		background-size: 100%;
+	}
+	.res-box .col {
+		width:100% ; !important
+		height: auto;
+	}
+	.col col3{
+		width: 580px; !important
+		background-color: red;
+	}
+	.contain #col1, .contain #col2 { float: none; width: 100%; height: auto; }
+	.col-2 {
+		height: 1000px;
+	}
+}	
+@media only screen and (max-width: 768px) {
+	#main {
+		width: 100%;
+	}
+	#nav ul li{
+		margin-top: 0px;
+		font-size: 15px;	
+	}
+	
+	#logo img {
+		height: 150px;
+		width: 150px;
+	}
+	.para {
+		margin-left: 40px;
+		margin-top: 150px;
+		
+	}
+	#button1 {
+		width: 100%;
+	}
+	#button2 {
+		width: 100%;
+	}
+	#quote {
+		font-size: 150%;
+	}
+	#author {
+		font-size: 150%;
+	}
+	.pushabout {
+		margin-top: 450px;
+	}
+	.main {
+		width: 100%; !important
+	}
+	.col1{
+       float: left;
+        width:100%; !important
+	
+    	}
+	.col2 {
+	float: left; !important
+	width: 100%; !important
+	display: block; !important
+	}
+
+	.col3 {
+	float: left; !important
+	width: 100%; !important
+	display: block; !important
+	}
+	.contain #col1, {
+		display: block; !important
+		margin: 0 auto;
+		height: 500px;
+		width: 100%;
+		float: left;
+	}
+	.contain #col2 {
+		display: block; !important
+		margin: 0 auto;
+		height: 720px;
+		width: 100%;
+		float: left;
+	}
+	
+}
+ 
+/*--ABOUT.HTML PAGE--*/
+
+.body_about {
+	background-color: #E9EDED;
+	margin: 0px;
+	padding: 0px;
+}
+.container {
+	width: 100%;
+	height: 700px;
+	margin-top: 200px;
+}
+#aboutimg  {
+	width: 49%;
+	float: left;
+	margin: 0px;
+	
+}
+
+.text {
+	width: 50%;
+	float: right;
+	height: 100%;
+	
+}
+#aboutimg img {
+	margin-top: 25%;
+	margin-left: 25%;
+}
+/*--Vertical bar graph--*/
+.graph {
+	list-style: none;
+	padding-top: 20px;
+	width: 560px;
+	background-color: #BABFC0;
+	padding-bottom: 20px;
+	}
+
+ul.graph li {
+	height: 25px;
+	color: white;
+	text-align: left;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0px 5px;
+	margin-bottom: 5px;
+}
+
+.graph li#photoshop {
+	background: #ED1C24;
+	width: 476px;
+}
+
+.graph li#html {
+	background: #ED1C24;
+	width: 504px;
+}
+
+.graph li#illustrator {
+	background: #ED1C24;
+	width: 392px;
+}
+
+.graph li#java {
+	background: #ED1C24;
+	width: 476px;
+}
+
+.graph li#c {
+	background: #ED1C24;
+	width: 336px;
+}
+
+/*--Percentages for bar graph--*/
+.percent {
+	float: right;
+	margin-top: -145px;
+}
+
+ul .percent  li{
+	list-style: none;
+}
+
+/*--Image for about container--*/
+.container #aboutimg img{
+	width: 250px;
+	height:250px;
+	border-radius: 50%;
+	
+}
+
+/*--Font styles for the content--*/
+
+#heading1 , #heading3{
+	font-family: 'Rock Salt', cursive;
+	font-size: 20px;
+}
+
+#para1  {
+	font-family: 'Marmelad', sans-serif;
+	font-size: 15px;
+}
+
+.graph, .percent{
+	font-family: 'Marmelad', sans-serif;
+}
+
+#skill {
+	font-family: 'Rock Salt', cursive;
+}
+#para1 {
+	line-height: 25px;
+	align: justify;
+}
+
+
+#horizontal {
+	width: 100%;
+	height: 12px;
+	border: 0;
+	box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+
+}
+
+#skill {
+	margin-top: -10px;
+}
+
+/*--RESUME WEB PAGE---*/
+.htmlresume, .bodyresume, h1, h2, h2, p, div, a, img, footer {
+	margin: 0;
+	padding: 0;
+}
+.htmlresume {
+	background-image: url(../images/aoc7tslb1o8-lauren-mancke.jpg) ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+.res-box {
+	margin-top: 100px;
+	background-color: rgba(47,79,79,0.4);
+	margin-left: 5px;
+	margin-right: 5px;
+	
+} 
+
+main{
+  	width:94.75%;
+	margin: 0 auto;
+ 	overflow: hidden;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	height: auto;
+}
+
+.col{
+    	width: 30%;
+   	
+    	float: left;
+    	text-align: center;
+    	padding:1rem;
+    	position: relative;
+}
+.col1 , .col2, .col3 { }
+
+#col1 {
+	margin: 0 1% 0 0;
+	width: 49%;
+	height: 500px;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	position: relative;
+}
+
+#col2 {
+	margin: 0 0 0 1%;
+	width: 49%;
+	height: 800px;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	position: relative;
+}
+
+/*--RESUME PAGE FONT STYLES--*/
+
+#techresume {
+	color:  #d6d6c2;
+	font-family: 'Karla', sans-serif;
+	font-size: 22px;
+	text-align: center;
+} /*--Technology and Skills heading--*/
+
+#techres {
+	color: #e0e0d1;
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	
+}
+
+.techlist { list-style-type: square; }
+.techlist li {
+	color: #f5f5f0;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 18px;
+}
+
+#resumep, #resumepf {
+	color: #FFFFF0;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 18px;
+	text-align: left;
+}
+#techres1 {
+	color: #e0e0d1;
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	padding-top: 70px;
+}
+
+.col1resume {
+	margin-top: 170px;	
+}	
+

@@ -64,6 +64,10 @@
 	alpha: filter (opacity=20);
 	top: 0;
 } 
+
+.menu_names li{
+	text-transform: uppercase;
+}
 #menu-icon {
 	display: hidden;
 	width: 40px;
@@ -112,6 +116,8 @@ a:hover#menu-icon {
 		
 }
 
+
+
 .button1 {
 	border-radius:4px;
 	background-color: #E0CF6E;
@@ -126,6 +132,10 @@ a:hover#menu-icon {
 	min-width: 25%;
 	
 	
+}
+.button1 a {
+	text-decoration: none;
+	color: #FFFFFF;
 }
 
 .button1 span {
@@ -166,6 +176,11 @@ a:hover#menu-icon {
 	flex-grow: 1;
 	min-width: 25%;
 	
+}
+
+.button2 a {
+	text-decoration: none;
+	color: #FFFFFF;
 }
 
 .button2 span {
@@ -332,16 +347,13 @@ footer.copyright p{
 		width:100% ; !important
 		height: auto;
 	}
-	.col col3{
-		width: 580px; !important
-		background-color: red;
-	}
-	.contain #col1, .contain #col2 { float: none; width: 100%; height: auto; }
-	.col-2 {
-		height: 1000px;
-	}
-
-
+	
+	.contain #col1, .contain #col2 { float: none; width: 100%;  }
+	.contain #col2 { height: 1050px !important ;  }
+	.contain #col1 {  height: 50px;}
+	.contain #col1 h2 {
+		 margin-top: 0;}
+		
 	#contactpic {
 		background-size: contain; !important
 	}
@@ -609,6 +621,10 @@ main{
 }
 
 /*--RESUME PAGE FONT STYLES--*/
+
+.uppercase h2, .uppercase h3{
+	text-transform: uppercase;
+}
 
 #techresume {
 	color:  #d6d6c2;

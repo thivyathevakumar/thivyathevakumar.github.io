@@ -103,7 +103,7 @@ a:hover#menu-icon {
 /*--end of nav bar--*/
 
 /*--Content beginning--*/
-#buttons { /*after the main buttons*/
+#buttons { //after the main buttons
 	width: 100%;
 	height: 42px;
 	margin: 0px auto;
@@ -335,7 +335,7 @@ footer.copyright p{
 		background-color: red;
 	}
 	.contain #col1, .contain #col2 { float: none; width: 100%; height: auto; }
-	.contain .col-2 {
+	.col-2 {
 		height: 1000px;
 	}
 }	
@@ -635,3 +635,192 @@ main{
 	margin-top: 170px;	
 }	
 
+
+
+
+
+/*-- CONTACT WEB PAGE CODE BEGINNING--*/
+
+
+
+
+#contactpic {
+	
+	background: url(../images/contact.jpg);
+	background-color: rgb (248, 247, 216);
+	background-size: cover;
+	width: 100%;
+	height: 550px;
+	
+	
+}
+
+#overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 558px;
+	
+}
+#overlay h1 {
+	opacity: 0;
+	margin-top: 200px;
+	text-align: center;
+}
+	
+#contactpic:hover #overlay {
+	opacity: 0.5;
+	background: #f8f8ff;
+}
+
+#contactpic:hover > #overlay h1 {
+	opacity: 1;
+	
+}
+input[type=text] , input[type=email] ,textarea {
+	padding: 20px;
+	border-radius: 5px;
+	margin: 0 5px;
+	
+}
+
+input, textarea {
+	margin:  0 10px;
+}
+
+#glob_content {
+	
+	border-radius: 4px;
+	border: 3px;
+	
+	margin: 0 auto;
+	
+}
+
+#form_content {
+	padding: 20px;
+	
+}
+
+#title {
+	
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px; 0px 15px #dc2358;
+	padding: 20px;
+	font-size: 20px;
+}
+
+input[type=submit] {
+	padding: 20px 30px 20px 30px;
+	background-color: #F3CF2D;
+	border-radius: 4px solid #e7226c;
+	color: black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	width: 200px;
+}
+
+#contactformgroup {
+	margin-left: 25%;	
+}
+
+textarea {
+	margin-left: 25.4%;
+	margin-top: 20px;
+	width: 54%;
+	
+}
+
+
+#map {
+	width: 600px;
+        height: 600px;
+ 	frameborder:0;
+	style:border:0;
+	display: table;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+#icon1 {
+	background-image: url(../images/icon1.png);
+	background-repeat: no-repeat;
+	background-position: 5px 17px;
+	text-indent: 17px;
+	background-size: 22px ;
+	
+}
+
+#icon2 {
+	background-image: url(../images/icon2.png);
+	background-repeat: no-repeat;
+	background-position: 5px 12px;
+	text-indent: 18px;
+	background-size: 32px ;
+}
+
+#icon3 {
+	background-image: url(../images/icon3.png);
+	background-repeat: no-repeat;
+	background-position: 5px 18px;
+	text-indent: 17px;
+	background-size: 25px ;
+}
+
+#icon4 {
+	background-image: url(../images/icon4.png);
+	background-repeat: no-repeat;
+	background-position: 5px 15px;
+	text-indent: 18px;
+	background-size: 20px ;
+}
+
+.contacttext {
+	font-size: 15px;
+	maxlength: 140;
+}
+
+
+/*--FONT CODES FOR CONTACT PAGE--*/
+
+#headingmain {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Cataraman' , sans-serif;
+	color: black;
+}
+
+#git {
+	font-size: 45px;
+	font-family: 'Molengo', sans-serif;
+	text-align: center;
+	padding-top: 150px;
+	letter-spacing: 1px;
+}
+
+#title {
+	font-size: 30px;
+	font-family: 'Molengo', sans-serif;
+}
+
+.contacttext {
+	font-size: 20px;
+	font-family: 'Molengo', sans-serif;
+}
+
+#sub {
+	font-size: 22px;
+	font-family: 'Molengo', sans-serif;
+	text-align: center;
+}

@@ -343,6 +343,9 @@ footer.copyright p{
 	.htmlresume {
 		background-size: 100%;
 	}
+	#resumename {
+		float: left;
+	}
 	.res-box .col {
 		width:100% ; !important
 		height: auto;
@@ -620,8 +623,17 @@ main{
 	position: relative;
 }
 
-/*--RESUME PAGE FONT STYLES--*/
+#resumename {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
 
+/*--RESUME PAGE FONT STYLES--*/
+#resumename {
+	font-family: 'Karla', sans-serif;
+	color: #EFF2F6;
+}
 .uppercase h2, .uppercase h3{
 	text-transform: uppercase;
 }

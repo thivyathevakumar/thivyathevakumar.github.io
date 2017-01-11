@@ -310,10 +310,13 @@ footer.copyright p{
 	#author {
 		font-size: 150%;
 	}
-	#button1 {
+	#buttons {
+		height: 100px;
+	}
+	.button1 {
 		width: 100%;
 	}
-	#button2 {
+	.button2 {
 		width: 100%;
 	}
 	

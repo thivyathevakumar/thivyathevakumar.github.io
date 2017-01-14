@@ -357,7 +357,10 @@ footer.copyright p{
 	.contain .col4 {  height: 50px;}
 	.contain .col4 h2 {
 		 margin-top: 0;}
+	.col-2 {
+		margin-top: 0px !important;
 		
+	}
 	#contactpic {
 		background-size: contain; !important
 	}
@@ -619,9 +622,9 @@ main{
 	width: 49%;
 	height: 880px;
 	display: inline-block;
-	vertical-align: top;
 	float: right;
 	position: relative;
+	
 }
 
 #resumename {
@@ -674,11 +677,14 @@ main{
 }
 
 .col1resume {
-	margin-top: 170px;	
+	margin-top: 170px;
+		
 }	
 
-
-
+.col-2 {
+	
+	margin-top: -250px;
+}
 
 
 /*-- CONTACT WEB PAGE CODE BEGINNING--*/
